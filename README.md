@@ -1,5 +1,7 @@
 # Frontend Mentor - Interactive rating component
 
+### <a href="https://gabrielcarrenio.github.io/interactive-rating-component-react-js/">link</a>
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
