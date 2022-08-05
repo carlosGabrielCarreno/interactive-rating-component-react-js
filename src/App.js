@@ -22,6 +22,9 @@ function App() {
             Please let us know how we did with your support request.All feedback
             is appreciated to help us improve our offering!
           </p>
+          {/* antes de renderizar los input, preguntar si existe el state btn con algo, 
+            si existe, entonces renderizarlo con el color naranja
+          */}
           <div className={styled.containerBtn}>
             <input
               className={styled.btn}
@@ -60,7 +63,11 @@ function App() {
         </>
       ) : (
         <>
-          <img src={thankYou} alt="thank-you-logo" />
+          <img
+            className={styled.imgOutput}
+            src={thankYou}
+            alt="thank-you-logo"
+          />
           <h3 className={styled.h3}>You selected {btn} out of 5</h3>
           <h2 className={styled.h2}>Thank you!</h2>
           <p className={styled.pOutput}>

@@ -24,7 +24,7 @@
 .containerBtn {
   margin: 2rem 0;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .btn {
@@ -63,6 +63,11 @@
 }
 
 /* card of thank you */
+.imgOutput {
+  margin: 1rem auto;
+  display: flex;
+}
+
 .h3 {
   text-align: center;
   font-weight: 300;
@@ -72,15 +77,17 @@
   border-radius: 15px;
   padding: 0.5rem;
   color: hsl(25, 97%, 53%);
+  margin: 2rem auto;
 }
 
 .h2 {
   text-align: center;
-  font-size: 1.5rem;
+  margin: 2.1rem 0 0 0;
 }
 
 .pOutput {
-  padding: 1rem;
+  padding: 0 0.3rem;
+  text-align: center;
 }
 
 .nose {
