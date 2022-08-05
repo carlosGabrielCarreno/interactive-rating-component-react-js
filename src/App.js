@@ -5,17 +5,14 @@ import { useState } from "react";
 
 function App() {
   const [step, setStep] = useState(0);
-  const [btn, setBtn] = useState("0");
+  const [btn, setBtn] = useState("");
+
+  const handlerStateBtn = (state) => {};
 
   return (
     <div className={styled.card}>
       {step === 0 ? (
         <>
-          {/* 
-                  puedo preguntar si existe btn y si existe pinto 
-                  el btn con naranja, de seguro voy a tener que resetear el state btn para cada btn cuando seleccione alguno! 
-                  
-                  */}
           <img className={styled.startStyles} src={star} alt="star-logo" />
           <h1>How did we do?</h1>
           <p className={styled.pInput}>
@@ -27,31 +24,31 @@ function App() {
           */}
           <div className={styled.containerBtn}>
             <input
-              className={styled.btn}
+              className={btn == "1" ? styled.btnActive : styled.btn}
               type="submit"
               onClick={() => setBtn("1")}
               value={"1"}
             />
             <input
-              className={styled.btn}
+              className={btn == "2" ? styled.btnActive : styled.btn}
               type="submit"
               onClick={() => setBtn("2")}
               value={"2"}
             />
             <input
-              className={styled.btn}
+              className={btn == "3" ? styled.btnActive : styled.btn}
               type="submit"
               onClick={() => setBtn("3")}
               value={"3"}
             />
             <input
-              className={styled.btn}
+              className={btn == "4" ? styled.btnActive : styled.btn}
               type="submit"
               onClick={() => setBtn("4")}
               value={"4"}
             />
             <input
-              className={styled.btn}
+              className={btn == "5" ? styled.btnActive : styled.btn}
               type="submit"
               onClick={() => setBtn("5")}
               value={"5"}
