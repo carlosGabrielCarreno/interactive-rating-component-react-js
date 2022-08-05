@@ -1,0 +1,89 @@
+.card {
+  width: 320px;
+  height: 350px;
+  position: relative;
+  background-color: hsl(213, 19%, 18%);
+  color: #fff;
+  font-family: "Overpass", sans-serif;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.startStyles {
+  padding: 0.6rem;
+  border: transparent;
+  border-radius: 2rem;
+  background-color: hsl(216, 12%, 22%);
+}
+
+.pInput,
+.pOutput {
+  color: hsl(217, 12%, 63%);
+}
+
+.containerBtn {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: transparent;
+  margin: 0.2rem;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(216, 12%, 22%);
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.btnSubmit {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  border: transparent;
+  border-radius: 1rem;
+  width: 100%;
+  padding: 1rem;
+  font-size: 15px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btnSubmit:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+/* card of thank you */
+.h3 {
+  text-align: center;
+  font-weight: 300;
+  background-color: hsl(216, 12%, 22%);
+  width: 200px;
+  border: transparent;
+  border-radius: 15px;
+  padding: 0.5rem;
+  color: hsl(25, 97%, 53%);
+}
+
+.h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.pOutput {
+  padding: 1rem;
+}
+
+.nose {
+  color: hsl(0, 0%, 100%), hsl(217, 12%, 63%), hsl(216, 12%, 54%),
+    hsl(213, 19%, 18%), hsl(216, 12%, 8%);
+}
