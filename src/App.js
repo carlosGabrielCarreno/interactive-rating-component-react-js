@@ -54,7 +54,10 @@ function App() {
               value={"5"}
             />
           </div>
-          <button className={styled.btnSubmit} onClick={() => setStep(1)}>
+          <button
+            className={styled.btnSubmit}
+            onClick={() => (btn ? setStep(1) : setStep(0))}
+          >
             SUBMIT
           </button>
         </>
