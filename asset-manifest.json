@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/interactive-rating-component-react-js/static/css/main.57bdae52.css",
+    "main.css": "/interactive-rating-component-react-js/static/css/main.71ff543e.css",
     "main.js": "/interactive-rating-component-react-js/static/js/main.6bff085f.js",
     "static/media/illustration-thank-you.svg": "/interactive-rating-component-react-js/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
     "index.html": "/interactive-rating-component-react-js/index.html",
     "static/media/icon-star.svg": "/interactive-rating-component-react-js/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
-    "main.57bdae52.css.map": "/interactive-rating-component-react-js/static/css/main.57bdae52.css.map",
+    "main.71ff543e.css.map": "/interactive-rating-component-react-js/static/css/main.71ff543e.css.map",
     "main.6bff085f.js.map": "/interactive-rating-component-react-js/static/js/main.6bff085f.js.map"
   },
   "entrypoints": [
-    "static/css/main.57bdae52.css",
+    "static/css/main.71ff543e.css",
     "static/js/main.6bff085f.js"
   ]
 }
