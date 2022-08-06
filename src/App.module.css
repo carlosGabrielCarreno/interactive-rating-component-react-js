@@ -45,6 +45,8 @@
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
+  outline: none;
+
 }
 
 .btnActive {
@@ -58,6 +60,7 @@
   font-weight: 700;
   font-size: 18px;
   cursor: pointer;
+  outline: none;
 }
 
 .btn:hover {
